@@ -13,6 +13,8 @@ function fibs(n) {
 // Same function but done via recursion
 let fibsRec = function(n) {
 
+    console.log("This was executed recursively");
+
     if (n <= 1) {
         return [0, 1];
     } else {

@@ -1,6 +1,8 @@
 // merge sort function 
 function mergeSort(array) {
 
+    console.log("This was printed recursively");
+
     // Base case
     if (array.length <= 1) {
         return array;
@@ -46,4 +48,4 @@ function mergeArrays(leftArray, rightArray) {
     return resultArray;
 }
 
-console.log(mergeSort([19, 43, 5455, 443, 34, 1, 2, 4, 5, 6]));
+console.log(mergeSort([8, 10, 12, 66, 50604, 500, 100, 1, 1, 4, 6]));
